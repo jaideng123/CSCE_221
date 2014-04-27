@@ -1,0 +1,309 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\size giant
+Programming Assignment 5 Report
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size giant
+Jaiden Gerig Sec:505
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Problem Description:
+\end_layout
+
+\begin_layout Standard
+Implement a Minimum Priority Queue first as a sorted/unsorted array, and
+ again as a Binary Heap.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Purpose of the Assignment:
+\end_layout
+
+\begin_layout Standard
+The purpose of the assignment was to demonstrate a knowledge of both the
+ 2 most common implementations of a Minimum Priority Queue, as well as to
+ prepare for the final project of this class.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Data Structures Description:
+\end_layout
+
+\begin_layout Standard
+By doing this assignment I Implemented a Priority Queue first using an unsorted
+ array of items which held a pair, and the address of their repective Locator,
+ while their Locator held the address of their respective item, the locators
+ were all located in a Vector and had an index corresponding to their Element.
+ next I implemented this priority queue again using a Binary Heap data structure
+ which was implemented using an array and a similar system of Items and
+ Locators.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Algorithm Description:
+\end_layout
+
+\begin_layout Standard
+Array implementation: insertItem(Item) inserts an Item into the end of the
+ array and happens in O(1) time as the array is unsorted.
+ min() returns the locator of the item with the minimum key and happens
+ in O(n) time as the array is unsorted.
+ remove(loc) removes an element based on the locator passed to it and happens
+ in O(n) time as the array must be shifted to fill the gap, the number of
+ comparisons made by this function decreases as the priority queue becomes
+ smaller.
+ replaceKey(loc,int) replaces the key of the item which corresponds to the
+ locator and runs in O(1) time due to the locator structure and does not
+ make any comparisons in this implementation as min is determined when asked
+ for.
+ createPriorityQueue() builds a priority queue from arrays passed to it
+ and runs in O(n) time as it simply inserts items into the end of the array.
+ getItem(loc) returns an item and runs in O(1) time due to the locator structure.
+\end_layout
+
+\begin_layout Standard
+Binary Heap implementation: InsertItem(Item) inserts an Item into the heap
+ and happens in O(Log(n)) time due to the need to walk the item up.
+ min() returns the locator of the item with the minimum key and happens
+ in O(1) time as the item is always at the tope of the binary heap.
+ remove(loc) removes an element based on the locator passed to it and happens
+ in O(Log(n)) time as the item is walked down the heap and then removed
+ from it, the number of comparisons made by this function decreases as the
+ priority queue becomes smaller.
+ replaceKey(loc,int) replaces the key of the item which corresponds to the
+ locator and runs in O(Log(n)) time due to the locator structure, and the
+ need to walk up and down the heap to ensure it is in the right place, this
+ function makes slightly more comparisons as it has to walk up and down
+ the heap..
+ createPriorityQueue() builds a priority queue from arrays passed to it
+ and runs in O(nlog(n)) time as it inserts the items into the binary heap.
+ getItem(loc) returns an item and runs in O(1) time due to the locator structure.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Program Organization:
+\end_layout
+
+\begin_layout Standard
+In the array implementation, the main data structure is located in PriorityQueue.
+h along with the data structures it is composed of, while main.cpp holds
+ all the tests of the data structure.
+ in the heap implementation, BinaryHeap.h holds the heap implementation along
+ with the locator structure, whereas PriorityQueue.h holds the prioirty queue
+ data structure along with the data structures it is composed of, main.cpp
+ holds all the tests of the data structure.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+How to compile + run my program:
+\end_layout
+
+\begin_layout Standard
+(1) type 
+\begin_inset Quotes eld
+\end_inset
+
+make all
+\begin_inset Quotes erd
+\end_inset
+
+ to compile (2) type 
+\begin_inset Quotes eld
+\end_inset
+
+./Main
+\begin_inset Quotes erd
+\end_inset
+
+ to run tests
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+C++ OO or Generic Programming features:
+\end_layout
+
+\begin_layout Standard
+This progam uses templates for generic programming to paramaterize the type
+ of the Priority Queue..
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Real World Applications:
+\end_layout
+
+\begin_layout Standard
+This could easily be used by any scheduling software for flights, it could
+ be used by hospitals to prioritize care of patients, and it could also
+ be used by servers for ensuring a correct order of operations using timestamps
+ as keys.
+\end_layout
+
+\end_body
+\end_document

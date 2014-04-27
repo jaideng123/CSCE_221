@@ -1,0 +1,2618 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\headheight 0in
+\headsep 0in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+CSCE 221 Cover Page
+\series default
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+ Homework Assignment #4
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+First Name
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Last Name 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+UIN
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+User Name 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+E-mail address
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Please list all sources in the table below including web pages which you
+ used to solve or implement the current homework.
+ If you fail to cite sources you can get a lower number of points or even
+ zero, read more on Aggie Honor System Office website: 
+\family typewriter
+
+\begin_inset CommandInset href
+LatexCommand href
+target "http://aggiehonor.tamu.edu/"
+
+\end_inset
+
+
+\family default
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align left
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Type of sources 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+People
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Web pages (provide URL) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Printed material
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Other Sources 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+I certify that I have listed all the sources that I used to develop the
+ solutions/codes to the submitted work.
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\emph on
+On my honor as an Aggie, I have neither given nor received any unauthorized
+ help on this academic work
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Your Name 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Date 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Newpage newpage
+\end_inset
+
+
+\series bold
+Homework 4
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+due March 8 at 11:59 pm.
+\end_layout
+
+\begin_layout Enumerate
+(15 points) Use a recursive tree and the Master theorem to classify an algorithm
+ described by the following recurrence relation: 
+\begin_inset Formula $T(n)=3T(n/2)+n^{2}$
+\end_inset
+
+ with the initial condition 
+\begin_inset Formula $T(1)=1.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+n^Log_3(2) < n^2 so by master theorum the running tim will be O(n^2)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+(15 points) Provide a recursive algorithm for evaluating an algebraic expression
+ represented as a binary tree.
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+double binaryNode::Eval(BinaryNode rnode)//start by passing root node of
+ binary tree
+\end_layout
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+	if(isNumber(rnode.operator))
+\end_layout
+
+\begin_layout Plain Layout
+
+		return toNumber(rnode.operator);
+\end_layout
+
+\begin_layout Plain Layout
+
+	else if(rnode.operator == "+")
+\end_layout
+
+\begin_layout Plain Layout
+
+		return Eval(rnode.leftChild) + Eval(rnode.rightChild);
+\end_layout
+
+\begin_layout Plain Layout
+
+	else if(rnode.operator == "-")
+\end_layout
+
+\begin_layout Plain Layout
+
+		return Eval(rnode.leftChild) - Eval(rnode.rightChild);
+\end_layout
+
+\begin_layout Plain Layout
+
+	else if(rnode.operator == "*")
+\end_layout
+
+\begin_layout Plain Layout
+
+		return Eval(rnode.leftChild) * Eval(rnode.rightChild);
+\end_layout
+
+\begin_layout Plain Layout
+
+	else if(rnode.operator == "/")
+\end_layout
+
+\begin_layout Plain Layout
+
+		return Eval(rnode.leftChild) / Eval(rnode.rightChild);
+\end_layout
+
+\begin_layout Plain Layout
+
+	else if(rnode.operator == "^")
+\end_layout
+
+\begin_layout Plain Layout
+
+		return pow(Eval(rnode.leftChild), Eval(rnode.rightChild));
+\end_layout
+
+\begin_layout Plain Layout
+
+	else
+\end_layout
+
+\begin_layout Plain Layout
+
+		throw runtime_error("BAD NODE");
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+(40 points) R-7.16 p.
+ 311
+\begin_inset Newline newline
+\end_inset
+
+Answer the following questions for 
+\series bold
+both an extended binary tree and a proper binary tree
+\series default
+ in (a) and (b), use the Proposition 7.10 to justify your answers.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the minimum number of external nodes for both binary trees with
+ height 
+\begin_inset Formula $h$
+\end_inset
+
+? Prove your answer using induction.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+-
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+Extended:
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+$n_e 
+\backslash
+geq h + 1$
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+Basis: when h = 0 the tree contains one node, it is the root and leaf thus
+ $n_e 
+\backslash
+geq 0 + 1$
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+Induction: Binary tree T of height h+1, the tree has a root and 2 subtrees,
+ the taller tree has height h therefore it has $n_e 
+\backslash
+geq h+1$ the other subtree a number of nodes $
+\backslash
+geq 0$ and thus T has $n_e 
+\backslash
+geq h + 1 + 0 = h + 1$
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Proper:
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+$n_e 
+\backslash
+geq h+1$
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+Basis: When h = 0 the tree contains one node, it is the root and leaf thus
+ $n_e 
+\backslash
+geq 0 + 1$
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+Induction: Binary tree T of height h+1, the tree has a root and 2 subtrees,
+ the taller tree has height h therefore it has $n_e 
+\backslash
+geq h+1$ the other subtree a number of nodes $
+\backslash
+geq 0$ and thus T has $n_e 
+\backslash
+geq h + 1 + 0 = h + 1$
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+What is the maximum number of external nodes for both binary trees with
+ height 
+\begin_inset Formula $h$
+\end_inset
+
+? Prove your answer using induction.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+-
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+Extended:
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+$n_e 
+\backslash
+leq 2^h$
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+Basis: when h = 0 the tree contains one node, it is the root and leaf thus
+ $n_e 
+\backslash
+geq 2^0 = 1$
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+Induction: Binary tree T of height h+1, the tree has a root and 2 subtrees,
+ assuming both trees are full then together they have $(2^h*2^2)$, then
+ you take out the nodes that have become internal nodes you get $(2^h*(2^2
+ - 2^1)) = (2^h*2^1) = 2^{h+1}$
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Proper:
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+$n_e 
+\backslash
+leq 2^h$
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+Basis: when h = 0 the tree contains one node, it is the root and leaf thus
+ $n_e 
+\backslash
+geq 2^0 = 1$
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+Induction: Binary tree T of height h+1, the tree has a root and 2 subtrees,
+ assuming both trees are full then together they have $(2^h*2^2)$, then
+ you take out the nodes that have become internal nodes you get $(2^h*(2^2
+ - 2^1)) = (2^h*2^1) = 2^{h+1}$
+\backslash
+newline
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $T$
+\end_inset
+
+ be a proper binary tree with height 
+\begin_inset Formula $h$
+\end_inset
+
+ and 
+\begin_inset Formula $n$
+\end_inset
+
+ nodes.
+ Prove that
+\begin_inset Formula 
+\[
+log(n+1)-1\leq h\leq(n-1)/2
+\]
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+-
+\backslash
+newline
+\end_layout
+
+\begin_layout Plain Layout
+
+for the minimum height of a tree we get $n = 2h + 1 -> h_{min} = (n-1)/2$
+ and for the maximum height we get $n = 2^{h+1} - 1 -> log_2(n + 1) = h
+ + 1 -> log_2(n + 1) - 1 = h_{max}$ so by setting up the inequality we get
+ $h_{min}
+\backslash
+leq h 
+\backslash
+leq h_{max} = log(n+1)-1
+\backslash
+leq h
+\backslash
+leq(n-1)/2$
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+
+\series bold
+Proposition 7.10
+\series default
+ (pg 287): Let T be a nonempty binary tree, and let 
+\begin_inset Formula $n,n_{E},n_{I}$
+\end_inset
+
+ and 
+\begin_inset Formula $h$
+\end_inset
+
+ denote the number of nodes, number of external nodes, number of internal
+ nodes, and height of T, respectively.
+ Then T has the following properties:
+\begin_inset Newline newline
+\end_inset
+
+1.
+ 
+\begin_inset Formula $h+1\leq n\leq2^{h+1}-1$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+2.
+ 
+\begin_inset Formula $1\leq n_{E}\leq2^{h}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+3.
+ 
+\begin_inset Formula $h\leq n_{I}\leq2^{h}-1$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+4.
+ log
+\begin_inset Formula $(n+1)-1\leq h\leq n-1$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Also
+\emph default
+, if T is proper, then it has the following properties:
+\begin_inset Newline newline
+\end_inset
+
+1.
+ 
+\begin_inset Formula $2h+1\leq n\leq2^{h+1}-1$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+2.
+ 
+\begin_inset Formula $h+1\leq n_{E}\leq2^{h}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+3.
+ 
+\begin_inset Formula $h\leq n_{I}\leq2^{h}-1$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+4.
+ log
+\begin_inset Formula $(n+1)-1\leq h\leq(n-1)/2$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+(15 points) R-7.22 p.
+ 312
+\begin_inset Newline newline
+\end_inset
+
+Describe, in pseudo-code, an algorithm for computing the number of descendents
+ (see the definition in the textbook on p.
+ 270) of each node of a binary tree.
+ The algorithm should be based on the Euler tour traversal.
+ 
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Global var: T.counter = 0
+\end_layout
+
+\begin_layout Plain Layout
+
+each node has local var counter
+\end_layout
+
+\begin_layout Plain Layout
+
+descendCount(T,p):
+\end_layout
+
+\begin_layout Plain Layout
+
+	visit node p on the left
+\end_layout
+
+\begin_layout Plain Layout
+
+	if p is an internal node then
+\end_layout
+
+\begin_layout Plain Layout
+
+		recursively tour left subtree of p by calling descendCount(T,p.left())
+\end_layout
+
+\begin_layout Plain Layout
+
+		counter = T.counter
+\end_layout
+
+\begin_layout Plain Layout
+
+		increment T.counter
+\end_layout
+
+\begin_layout Plain Layout
+
+	visit node p from below
+\end_layout
+
+\begin_layout Plain Layout
+
+	if p is an internal node then
+\end_layout
+
+\begin_layout Plain Layout
+
+		recursively tour right subtree of p by calling descendCount(T,p.right())
+\end_layout
+
+\begin_layout Plain Layout
+
+		descendents = T.counter - counter - 1
+\end_layout
+
+\begin_layout Plain Layout
+
+	return descendants
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+(15 points) C-7.33 p.
+ 317
+\begin_inset Newline newline
+\end_inset
+
+Describe, in pseudo-code, a nonrecursive method for performing an inorder
+ traversal of a binary tree in linear time.
+ (Hint: Use a stack.)
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+inOrderTraversal(rNode)
+\end_layout
+
+\begin_layout Plain Layout
+
+	create stack
+\end_layout
+
+\begin_layout Plain Layout
+
+	cNode = rNode
+\end_layout
+
+\begin_layout Plain Layout
+
+	while Stack is not empty do
+\end_layout
+
+\begin_layout Plain Layout
+
+		while cNode != NULL do
+\end_layout
+
+\begin_layout Plain Layout
+
+			push cNode onto stack
+\end_layout
+
+\begin_layout Plain Layout
+
+			cNode = cNode->left
+\end_layout
+
+\begin_layout Plain Layout
+
+		Pop from stack and print
+\end_layout
+
+\begin_layout Plain Layout
+
+		cNode = cNode->right
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

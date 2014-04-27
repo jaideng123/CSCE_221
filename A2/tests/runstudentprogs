@@ -1,0 +1,20 @@
+#!/bin/bash
+for i in $( ls ); do
+	cd $i
+	rm tmp
+	echo $i >> ../../output
+	./sort -a B -f ../../100r -o 100b	
+	echo "bubble-sort" >> ../../output
+	diff 100b ../../100s >> ../../output
+	./sort -a I -f ../../100r -o 100i	
+	echo "insertion-sort" >> ../../output
+	diff 100i ../../100s >> ../../output
+	./sort -a S -f ../../100r -o 100s	
+	echo "selection-sort" >> ../../output
+	diff 100s ../../100s >> ../../output
+	./sort -a H -f ../../100r -o 100h	
+	echo "shell-sort" >> ../../output
+	diff 100h ../../100s >> ../../output
+	#cd ../
+done
+

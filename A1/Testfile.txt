@@ -1,0 +1,94 @@
+What is the worst case runtime of a binary search Algorithm. Choose from below:
+O(n^3)
+O(n)
+O(log(n))
+O(n^2)
+3
+
+Which notation do you use to denote the best case running time for an algorithm. Choose from below:
+Big Oh.
+Big Omega.
+Big Theta.
+2
+
+A pointer is... Choose from below:
+A giant foam finger.
+An operator that increments.
+A memory address of an object of a specified type.
+3
+
+T/F, A brute force algorithm is usually the most effecient solution to a problem Choose from below:
+True.
+False.
+2
+
+T/F A branch and bound algorithm is used to cultivate only the most efficient solutions Choose from below:
+True.
+False.
+1
+
+Which of these upper bounds is the largest? Choose from below:
+O(n).
+O(log(n)).
+O(nlog(n)).
+3
+
+An iterator is used to. Choose from below:
+increment through a loop.
+point to a pointer.
+abstract the process of scanning through elements of a container.
+update code as it runs.
+3
+
+A collection of elements is usually referred to as a... Choose from below:
+Vector.
+Array.
+List.
+Container.
+Pointer.
+4
+
+Which is not a main feature of an ADT? Choose from below:
+An iterator.
+A clear description of the input of each operation.
+The action of each operation.
+Its return type.
+1
+
+Which is not a guaranteed operation an Iterator will have? Choose from below:
+==.
+++.
+!=.
+->.
+--.
+5
+
+A multidimensional Array is called a... Choose from below:
+Vector.
+Matrix.
+Array.
+2
+
+Which ADT is first in last out? Choose from below:
+Vector.
+Linked List.
+Stack.
+Queue.
+3
+
+T/F a pointer knows how many bytes it points to. Choose from below:
+True.
+False.
+2
+
+The worst case efficiency for an insertion sort is...Choose from below:
+n-1.
+(n^2-n)/2.
+(n^2-n)/4.
+2
+
+A Greedy Algorithm... Choose from below:
+Starts with 1 solution then builds off of that till it cant solve anymore.
+picks the best local solution and hopes it's a good global solution.
+Prunes it's solution tree based on efficiency.
+2

@@ -1,0 +1,464 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\size giant
+Programming Assignment 1 Report
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size giant
+Jaiden Gerig Sec:505
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Problem Description:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The problem was to create a program that would create an Object contatining
+ the data for a question and set of answers, then to implement it as a quiz
+ game using both Linked lists and Vectors.
+ All the questions had to be read from an input file, then randomized, then
+ cut down to 10 out of the original 15.
+ The player of the game must answer the questions and then be given a score
+ at the end of the quiz and being told they passed if they got 7 or more
+ correct.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Purpose of the Assignment:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The purpose of this assignment was to learn how to implement the Vector
+ and Linked List ADTs in a practical way.
+ This asssignment ashould also have shown knowledge of various C++ features
+ and class structure, including class creation, operator overloading, and
+ handing input and output.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Data Structures Description:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Through this Assignment I learned about the differences between Vectors
+ and Linked Lists and how they are implemented using the Standars Template
+ Library.
+ Vectors are much more tightly controlled and structured than Linked Lists,
+ for instance, to add or delete an element in a Vector you must shift many
+ of it's elements to the right or left, which can greatly slowdown a program
+ with repeated adding and deleting.
+ This however makes their elements much easier to access as they can be
+ called much like an array and are very quick to traverse as they are stored
+ relatively close to eachother in memory.
+ The Linked List on the other hand offers much more flexibility at the price
+ of some performance.
+ Linked lists can only be accessed in C++ by using iterators so If you need
+ to access an element in a linked list you first need to iterate through
+ all the previous elements to get to it, which can lead to less predictable
+ performance.
+ However, they do not shift around as much as Vectors do when elements are
+ being added or deleted.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Algorithm Description:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The main algorithm used in this program was random_shuffle, which takes
+ the elements of a vector and randomizes them.
+ This was used to get a random set of 10 questions from the pool of 15.
+ I organized the game using a for loop to run through the 10 questions and
+ collect the player's answers.
+ i ran a counter outside of the for loop to see how many they got correct
+ at the end.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Program Organization:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The definitions for my Question Class are in 
+\begin_inset Quotes eld
+\end_inset
+
+Question.h
+\begin_inset Quotes erd
+\end_inset
+
+, most of the implementation details are in 
+\begin_inset Quotes eld
+\end_inset
+
+Question.cpp
+\begin_inset Quotes erd
+\end_inset
+
+.
+ I chose to put the definition and implementation of the overloaded input
+ and output operators into the 
+\begin_inset Quotes eld
+\end_inset
+
+Question.h
+\begin_inset Quotes erd
+\end_inset
+
+.
+ I also included 
+\begin_inset Quotes eld
+\end_inset
+
+std_lib_facilities_3.h
+\begin_inset Quotes erd
+\end_inset
+
+ as it is the standard header for this course.
+ The majority of the program is in Main.cpp including the Vector and Linked
+ List implementations.The Problems to be read in are located in 
+\begin_inset Quotes eld
+\end_inset
+
+Testfile.txt
+\begin_inset Quotes erd
+\end_inset
+
+ and are formatted for unix EOLs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+How to compile + run my program:
+\end_layout
+
+\begin_layout Enumerate
+Type 
+\begin_inset Quotes eld
+\end_inset
+
+make all
+\begin_inset Quotes erd
+\end_inset
+
+ into the command line
+\end_layout
+
+\begin_layout Enumerate
+Then type 
+\begin_inset Quotes eld
+\end_inset
+
+./Main
+\begin_inset Quotes erd
+\end_inset
+
+ to run the program
+\end_layout
+
+\begin_layout Enumerate
+pick 1 for Vector, 2 for list
+\end_layout
+
+\begin_layout Enumerate
+Answer the questions by typing in the number that correpsonds with the answer
+ and pressing enter
+\end_layout
+
+\begin_layout Enumerate
+when you have finsihed you will be given a score and told whether or not
+ you have passed of failed
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Input + Output Specs:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+The input must be formatted in this fashion:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Question
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Answer(2+ choices)
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Answer
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Answer
+\end_layout
+
+\begin_layout Standard
+
+\size large
+2(correct answer choice)
+\end_layout
+
+\begin_layout Standard
+
+\size large
+You must include 15 questions exactly
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Output will be formatted like this:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Question:Question
+\end_layout
+
+\begin_layout Standard
+
+\size large
+1.)answer
+\end_layout
+
+\begin_layout Standard
+
+\size large
+2.)answer
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Logical Exceptions:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+My program will crash and throw exceptions when it recieves incorrect user
+ input during runtime, such as an answer choice that is not a number or
+ is not between 1 and 5.
+ it will not catch incorrect input from the text file nor will it crash
+ immediately, it will simply garble the input.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+C++ OO or Generic Programming features:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+This program does not use any object oriented or genereic programming features.
+ nor does it use any C++11 features.
+\end_layout
+
+\end_body
+\end_document

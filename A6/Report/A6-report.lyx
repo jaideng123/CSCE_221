@@ -1,0 +1,490 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\size giant
+Programming Assignment 6 Report
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size giant
+Jaiden Gerig Sec:505
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Problem Description:
+\end_layout
+
+\begin_layout Standard
+Ue Dijkstra's algorithm to find the shortest path in a directed graph from
+ a source vertext to all other vertices, then provide the results of that
+ path.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Purpose of the Assignment:
+\end_layout
+
+\begin_layout Standard
+The purpose of the assignment was to demonstrate a knowledge of the implementati
+on of the Graph ADT and Dijkstra's algorithm.
+ Real world applications of Dijkstra's alogrithm would include GPS directions
+ for roads, optimizing network routing to reduce latency, and flight planning
+ for airlines.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Data Structures Description:
+\end_layout
+
+\begin_layout Standard
+I used the Minimum Priority Queue based on a Binary Heap that i created
+ in the previous programming assignment to efficiently implement Dijkstra's
+ algorithm.
+ The Graph ADT was implemented using a list of vertices an edges, edges
+ were implemented with pointers to each vertex they are connected to, every
+ vertex holds a list of all the edges connected to it.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Algorithm Description:
+\end_layout
+
+\begin_layout Standard
+The main algorithm used in this assignment was Dijkstra's algorithm, which
+ is a greedy algorithm that tests every edge and vertex to find the shortest
+ path from a source node.
+ Which i implemented using the Minimum Priority Queue supported by a Binary
+ Heap, with locator structure, allowing the algorithm as a whole to run
+ in O((V+E)log(V)) time as every edge and vertex is evaluated, and it takes
+ O(log(V)) time to resort the binary heap after altering a key or removing
+ the minimum, without the Locator Structure this would run in O((V+E)Vlog(V))
+ time as we would have to search for the id of every key we would want to
+ relax, however this is not the case as my algorithm leverages the structure
+ to replace each key in O(1) time.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Program Organization:
+\end_layout
+
+\begin_layout Standard
+BinaryHeap.h and PriorityQueue.h both contain the implementation for the Minimum
+ Priority Queue data structure.
+ Vertex.h holds the vertex class which holds an ID, an in and out list of
+ edges, it's distance from the source node, and it's parent from the source
+ node.
+ Edge.h holds the edge class which contains pointers to it's start and end
+ vertices as well as the weight of traveling between them.
+ Graph.h and Graph.cpp both hold the Graph class as well as the implementation
+ for Dijkstra's algorithm and functions for printing the entire graph as
+ an adjacency list and printing the shortest path between 2 nodes.
+ GraphTest.cpp contains all the testing for the Graph ADT and Dijkstra's
+ algorithm.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+How to compile + run my program:
+\end_layout
+
+\begin_layout Standard
+(1) type 
+\begin_inset Quotes eld
+\end_inset
+
+make all
+\begin_inset Quotes erd
+\end_inset
+
+ to compile (2) type 
+\begin_inset Quotes eld
+\end_inset
+
+./Main
+\begin_inset Quotes erd
+\end_inset
+
+ (3) enter the source and end node you would like to find the shortest path
+ between (4) the program will print the path and exit
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Input + Output Specs:
+\end_layout
+
+\begin_layout Standard
+Input must be given in this format:
+\end_layout
+
+\begin_layout Standard
+# of nodes
+\end_layout
+
+\begin_layout Standard
+NodeID EndVertex weight -1
+\end_layout
+
+\begin_layout Standard
+-1
+\end_layout
+
+\begin_layout Standard
+The output will be given in this format:
+\end_layout
+
+\begin_layout Standard
+(NodeID)--weight-->(NodeID)...
+\end_layout
+
+\begin_layout Standard
+Total Weight For Shortest Path: Weight
+\end_layout
+
+\begin_layout Standard
+Total # of Comparisons: Comparisons
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Logical Exceptions:
+\end_layout
+
+\begin_layout Standard
+Crashes when: Input is not formatted correctly from the text file
+\end_layout
+
+\begin_layout Standard
+Throws exception when: Looking for a node that does not exist, Source and
+ End vertex are the same, no path exists from Source to End Vertex
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+C++ OO or Generic Programming features:
+\end_layout
+
+\begin_layout Standard
+This progam uses templates for generic programming to paramaterize the type
+ of the binary heap and priority queue implementations.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size largest
+Tests:
+\end_layout
+
+\begin_layout Standard
+Valid Cases:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename test1.png
+	scale 70
+
+\end_inset
+
+(tested on random_sparse.txt)
+\end_layout
+
+\begin_layout Standard
+Invalid Cases:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename test2.png
+	scale 70
+
+\end_inset
+
+(tested on random_sparse.txt)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename test3.png
+	scale 70
+
+\end_inset
+
+(tested on modified simple.txt)
+\end_layout
+
+\begin_layout Standard
+Other test files included in folder
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size largest
+Extra Credit 1:
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename A6-1.png
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename A6-2.png
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename A6-3.png
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename A6-4.png
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename A6-5.png
+
+\end_inset
+
+Final
+\begin_inset Newline newline
+\end_inset
+
+
+\size default
+Confirmation:
+\begin_inset Graphics
+	filename ex.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
